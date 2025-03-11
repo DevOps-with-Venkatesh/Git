@@ -1,0 +1,82 @@
+Git -2
+Session 2:
+=========
+
+git empty local repo
+
+git init -->To initialize the local repo
+
+Gitbash
+
+git --version-->it will show git version--
+
+Linux--> yum install -y git  , to install git in linux
+
+cd~/Desktop--> Mac/Windows
+
+cd ~-->Linux, we don't have desktop in linux
+
+mkdir facebook
+
+git init-->it is going to create git empty local repository
+
+ls  -la 
+
+.git file will create. It is a hidden directory
+
+Once you created the local repo three logical arreas created.
+
+working area
+stagging area
+local repo
+
+git status -->it will show the status of the file
+untracked--working area--red color
+
+git add .
+git add*
+
+git add file name --> to move the file to stagging area, files will shown in green color
+git add*.java
+
+git status -->tracked files
+
+git config --global user.name "venkat"
+git config --global user.email "venky@gmail.com"
+
+git config --global --list -->it will show details
+
+it is authentication purpose, these details use who commited and what time
+
+git commit -m "files moved"
+
+How to map remote repo to local repo
+git remote add aliasname url
+
+git remote add facebook url
+
+git remote -v
+
+it will show the mapping from renote to local repo
+
+git push aliasname master
+
+git log --> how many commits to local repo
+
+git log -2 latest 2 commits
+
+git log filename
+
+
+HEAD will points to latest commit id
+
+git show commitid
+
+git show --pretty="" --name-only commitid
+
+
+
+
+
+
+
