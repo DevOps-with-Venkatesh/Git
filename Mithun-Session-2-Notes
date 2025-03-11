@@ -74,6 +74,12 @@ git show commitid
 
 git show --pretty="" --name-only commitid
 
+How to get back to working area:
+-----------------------
+git reset-> to come from stagging area to working area
+git reset file name-->this file will come from stagging to working area
+git revert commitid-->it is going delete the newly added content from local repo, then push to remote repo.it will override the file..it will update the content
+
 
 
 
